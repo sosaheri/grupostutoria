@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Escuela coaching</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -431,6 +431,10 @@
 
     </div>    
 
+    <div class="row justify-center mt-5">
+        <h1 class="text-center">Armado de Grupos para Tutorías Etapa x</h1>
+    </div>
+
     <div class="row">
         <div class="col mt-5">
                 <div class="card" style="width: 18rem;">
@@ -471,7 +475,7 @@
                             <li>Disponible</li>
                         </ul>
 
-                        <a href="#" class="btn btn-primary">Unirse</a>
+                        <a href="./unirse"  class="btn btn-primary">Unirse</a>
                     </div>
             </div>
         </div>
@@ -493,7 +497,7 @@
                             <li>Disponible</li>
                         </ul>
 
-                        <a href="#" class="btn btn-primary">Unirse</a>
+                        <a href="./unirse"  class="btn btn-primary">Unirse</a>
                     </div>
             </div>
         </div>
@@ -514,7 +518,7 @@
                             <li>Disponible</li>
                         </ul>
 
-                        <a href="#" class="btn btn-primary">Unirse</a>
+                        <a href="./unirse"  class="btn btn-primary">Unirse</a>
                     </div>
             </div>
         </div>
@@ -536,7 +540,7 @@
                             <li>Disponible</li>
                         </ul>
 
-                        <a href="#" class="btn btn-primary">Unirse</a>
+                        <a href="./unirse"  class="btn btn-primary">Unirse</a>
                     </div>
             </div>
         </div>
@@ -558,7 +562,7 @@
                             <li>Disponible</li>
                         </ul>
 
-                        <a href="#" class="btn btn-primary">Unirse</a>
+                        <a href="./unirse"  class="btn btn-primary">Unirse</a>
                     </div>
             </div>
         </div>        
@@ -579,7 +583,7 @@
                             <li>Disponible</li>
                         </ul>
 
-                        <a href="#" class="btn btn-primary">Unirse</a>
+                        <a href="./unirse"  class="btn btn-primary">Unirse</a>
                     </div>
             </div>
         </div>
@@ -601,7 +605,7 @@
                             <li>Disponible</li>
                         </ul>
 
-                        <a href="#" class="btn btn-primary">Unirse</a>
+                        <a href="./unirse"  class="btn btn-primary">Unirse</a>
                     </div>
             </div>
         </div>
@@ -623,7 +627,7 @@
                             <li>Disponible</li>
                         </ul>
 
-                        <a href="#" class="btn btn-primary">Unirse</a>
+                        <a href="./unirse" class="btn btn-primary">Unirse</a>
                     </div>
             </div>
         </div>        
@@ -633,7 +637,10 @@
 </div>
 
 
-    <div class="row p-10"></div>
+    <div class="row justify-center mt-5">
+        <img src="{{ asset('img/logo.png') }}" alt="Logo escuela" style="width:500px; ">
+        <h3 class="text-center"> <a  href="#">www.carreradecoaching.com</a></h3>
+    </div>
 
 
 </body>
